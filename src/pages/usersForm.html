@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Contact</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <header>
+        <h1>User Form</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/users">Users</a></li>
+                <li><a href="/users/create">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="/users/save" method="post">
+            <input type="text" name="name" placeholder="Type your name">
+            <input type="tel" name="phone" placeholder="(xx) x xxxxxxxx">
+            <button>To Send</button>
+        </form>
+    </main>
+</body>
+</html>
